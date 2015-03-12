@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dto;
+package modelo.dto;
 
 /**
  *
  * @author LENOVO
  */
-public class usuariosdto {
+public class UsuarioDto {
 
     private int idUsuario = 0;
     private String nombres = "";

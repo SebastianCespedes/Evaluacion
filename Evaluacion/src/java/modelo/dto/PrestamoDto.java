@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 
-package dto;
+package modelo.dto;
 
 /**
  *
  * @author LENOVO
  */
-public class prestamodto {
+public class PrestamoDto {
     private int idPrestamo=0;
     private int idUsuario=0;
     private int idLibro=0;

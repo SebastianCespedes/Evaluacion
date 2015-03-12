@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package dto;
+package modelo.dto;
 
 /**
  *
  * @author LENOVO
  */
-public class librosdto {
-    private int idLibro=0;
-    private String isbn="";
-    private String titulo="";
-    private int precioLibro=0;
-    private int estado=0;
+public class LibroDto {
+
+    private int idLibro = 0;
+    private String isbn = "";
+    private String titulo = "";
+    private int precioLibro = 0;
+    private int estado = 0;
 
     @Override
     public String toString() {
@@ -92,5 +92,4 @@ public class librosdto {
         this.estado = estado;
     }
 
-    
 }
