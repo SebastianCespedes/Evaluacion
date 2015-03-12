@@ -4,9 +4,17 @@
         <servlet-name>ControladorPrestamo</servlet-name>
         <servlet-class>controladores.ControladorPrestamo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Controlador</servlet-name>
+        <servlet-class>controladores.Controlador</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ControladorPrestamo</servlet-name>
         <url-pattern>/ControladorPrestamo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Controlador</servlet-name>
+        <url-pattern>/Controlador</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
